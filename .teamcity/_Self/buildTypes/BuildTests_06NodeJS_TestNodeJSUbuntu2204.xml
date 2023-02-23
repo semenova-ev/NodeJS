@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="847a92ff-3de5-4a01-ae5e-4d5a0698a0dc" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>Test NodeJS (Ubuntu 22.04)</name>
+  <description />
+  <settings ref="BuildTests_06NodeJS_TestNodejsTemplate">
+    <disabled-settings>
+      <setting-ref ref="RUNNER_28" />
+    </disabled-settings>
+    <parameters />
+    <build-runners />
+    <vcs-settings />
+    <requirements>
+      <equals id="RQ_7" name="teamcity.agent.os.name" value="ubuntu-20.04" />
+    </requirements>
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+

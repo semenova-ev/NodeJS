@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="BuildTests" uuid="2fdbf53b-2b61-449f-9b63-b97dc7101633" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>06. NodeJS</name>
+  <default-template ref="BuildTests_06NodeJS_TestNodejsTemplate" />
+  <parameters />
+  <cleanup />
+</project>
+

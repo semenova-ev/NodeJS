@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="5f0f4bb9-f21d-4e0b-b9a2-f6393cac722c" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>Test NodeJS (macOS 11 BigSur)</name>
+  <description />
+  <settings ref="BuildTests_06NodeJS_TestNodejsTemplate">
+    <disabled-settings>
+      <setting-ref ref="RUNNER_28" />
+    </disabled-settings>
+    <parameters />
+    <build-runners />
+    <vcs-settings />
+    <requirements>
+      <contains id="RQ_4" name="teamcity.agent.os.name" value="macos-bigsur" />
+    </requirements>
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
